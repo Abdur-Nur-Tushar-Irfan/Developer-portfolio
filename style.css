@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -21,7 +22,7 @@ section {
 }
 
 .half-width img {
-    width: 60%;
+    width: 80%;
 }
 
 .link-button {
@@ -36,4 +37,17 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.image-style img {
+    width: 80%;
+}
+
+.cv-style {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
 }
